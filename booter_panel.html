@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StressHub - Panel</title>
+    <link rel="stylesheet" href="./css/1.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="shub maintitle">Stress<span>Hub</span></h1>
+    </header>
+    
+    <div class="container">
+        <div class="panel">
+            <div class="content">
+                <a href="./index.html" class="bongwong">←</a>
+                <h2 class="title center">Stress Hub | DDoS Panel</h2>
+                <div class="break"></div>
+                <div class="methods center">
+                    <button class="dropdownText larger center">Select Method</button>
+                    <div class="larger center dropdownContent">
+                        <a href="?method=OVH">OVH</a>
+                        <a href="?method=NUKE">NUKE</a>
+                        <a href="?method=CF">CLOUDFLARE</a>
+                        <a href="?method=GET">GET</a>
+                        <a href="?method=HEAD">HEAD</a>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <h3 class="center small">IP:</h3>
+                <input class="bar wide center" type="text" placeholder="IP Goes Here!">
+                <br />
+                <h3 class="center">Port:</h3>
+                <input class="bar center wide" type="text" placeholder="Port Goes Here!">
+                <br />
+                <h3 class="center">Attack Time:</h3>
+                <input class="bar center wide" type="text" placeholder="Attack Time In Seconds Goes Here!">
+                <br />
+                <button class="blast center"><span class="iconify center" data-icon="twemoji-rocket" data-inline="false"></span><a href="?attackSent=true " class="center"> Send Attack!</a></button>
+                <button class="blast align-left"><span class="iconify" data-icon="twemoji:hourglass-done" data-inline="false"></span><a href="./history.html" class="center"> View Attack History</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="break"><br /></div>
+</body>
+</html>
